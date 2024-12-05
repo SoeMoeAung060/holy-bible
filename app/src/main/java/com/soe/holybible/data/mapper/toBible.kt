@@ -3,7 +3,6 @@ package com.soe.holybible.data.mapper
 import com.soe.holybible.data.remote.dto.BibleDTO
 import com.soe.holybible.data.remote.dto.BurmeseBibleDTO
 import com.soe.holybible.domain.model.Bible
-import com.soe.holybible.domain.model.BurmeseBible
 
 fun BibleDTO.toBible(): List<Bible> {
     return data.map {
@@ -26,23 +25,3 @@ fun BibleDTO.toBible(): List<Bible> {
     }
 }
 
-
-fun BurmeseBibleDTO.toBurmeseBible(): BurmeseBible{
-    return BurmeseBible(
-        abbr = abbr,
-        dir = dir,
-        divisionAbbreviations = divisionAbbreviations,
-        divisionNames = divisionNames,
-        divisions = divisions,
-        generator = generator,
-        id = id,
-        lang = lang,
-        langName = langName,
-        langNameEnglish = langNameEnglish,
-        name = name,
-        nameEnglish = nameEnglish,
-        sections = sections,
-        stylesheet = stylesheet,
-        type = type
-    )
-}

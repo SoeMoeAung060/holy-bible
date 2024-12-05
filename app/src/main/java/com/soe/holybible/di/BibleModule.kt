@@ -9,7 +9,6 @@ import com.soe.holybible.domain.usecase.GetBibleChapters
 import com.soe.holybible.domain.usecase.GetBibleSearch
 import com.soe.holybible.domain.usecase.GetBibles
 import com.soe.holybible.util.BASE_URL
-import com.soe.holybible.util.MYANMAR_BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

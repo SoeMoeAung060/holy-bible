@@ -4,7 +4,6 @@ import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.soe.holybible.domain.model.Bible
-import com.soe.holybible.domain.model.BurmeseBible
 import com.soe.holybible.domain.usecase.BibleUseCases
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -22,8 +21,6 @@ class HomeScreenViewModel @Inject constructor(
     private val _bible = MutableStateFlow<List<Bible>>(emptyList())
     val bible: StateFlow<List<Bible>> = _bible
 
-    private val _burmeseBible = MutableStateFlow<BurmeseBible?>(null)
-    val burmeseBible: StateFlow<BurmeseBible?> = _burmeseBible
 
 //    private val _bibleBooks = MutableStateFlow<List<Bible>>(emptyList())
 //    val bibleBooks: MutableStateFlow<List<Bible>> = _bibleBooks

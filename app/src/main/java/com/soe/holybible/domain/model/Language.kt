@@ -1,7 +1,10 @@
 package com.soe.holybible.domain.model
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.Serializable
 
+@Parcelize
 @Serializable
 data class Language(
     val id: String,
@@ -9,4 +12,4 @@ data class Language(
     val nameLocal: String,
     val script: String,
     val scriptDirection: String
-)
+) : Parcelable

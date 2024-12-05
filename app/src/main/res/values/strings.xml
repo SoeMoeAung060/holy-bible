@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Holy Bible</string>
+    <string name="bibles">Bible</string>
+    <string name="old_testament">Old Testament</string>
+    <string name="new_testament">New Testament</string>
+    <string name="book">Book</string>
 </resources>

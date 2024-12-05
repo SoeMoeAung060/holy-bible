@@ -1,7 +1,10 @@
 package com.soe.holybible.domain.model
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.Serializable
 
+@Parcelize
 @Serializable
 data class Bible(
     val abbreviation: String?,
@@ -18,4 +21,4 @@ data class Bible(
     val relatedDbl: String?,
     val type: String?,
     val updatedAt: String?
-)
+) : Parcelable

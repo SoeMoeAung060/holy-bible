@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.soe.holybible" />
+                  <option name="mobileSdkAppId" value="1:177576551976:android:16fcae91a7efeceb5c771d" />
+                  <option name="projectId" value="holy-bible-9ecd6" />
+                  <option name="projectNumber" value="177576551976" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

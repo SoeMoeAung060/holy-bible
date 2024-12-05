@@ -24,13 +24,13 @@ class GetBibles(
 class GetBibleBooks(
     private val repository: BibleRepository
 ){
-    suspend operator fun invoke(bibleId : String, language: String) = repository.getBibleBooks(bibleId, language)
+    suspend operator fun invoke(bibleId : String) = repository.getBibleBooks(bibleId)
 }
 
 class GetBibleChapters(
     private val repository: BibleRepository
 ){
-    suspend operator fun invoke(bibleId : String, bookId : String, language: String) = repository.getBibleChapters(bibleId, bookId, language)
+    suspend operator fun invoke(bibleId : String, bookId : String, language: String) = repository.getBibleChapters(bibleId, bookId)
 }
 
 class GetBibleSearch(
